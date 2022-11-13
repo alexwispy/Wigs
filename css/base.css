@@ -8,9 +8,10 @@ body {
 	font-size: 15px;
 	line-height: 1;
 	background-color: #FAFAFA;
-
+	width: 1352px;
+	margin: 0 auto;
 	display: flex;
-	column-gap: 37px;
+	padding: 0 10px;
 }
 
 /* Utility */

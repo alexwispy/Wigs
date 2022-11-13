@@ -1,15 +1,12 @@
 /* Sidebar */
 .sidebar {
-    padding: 50px 15px 60px 55px;
+    padding: 50px 10px 60px 10px;
     width: 252px;
     min-height: 100vh;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-
-    /* background-color: rgb(219, 219, 219); */
 }
 
 .sidebar-logo {
@@ -21,11 +18,6 @@
 }
 
 /* Nav */
-
-.nav {
-
-}
-
 .nav-title {
     margin-bottom: 44px;
     font-weight: 700;
@@ -100,6 +92,7 @@
 }
 
 .search-icon {
+    width: 32px;
     margin-right: 7px;
 }
 
@@ -108,7 +101,6 @@
     flex-grow: 1;
     background: none;
     border-radius: 15px;
-
     font-size: 17px;
     font-weight: 500;
     font-family: 'Circular Std';
@@ -176,7 +168,9 @@
 .nav-header-link-text + .nav-header-link-icon {
     margin-left: 50px;
 }
-
+.nav-header-link-icon img{
+    width: 32px;
+}
 .nav-header-link-icon + .nav-header-link-icon {
     margin-left: 25px;
 }
@@ -192,10 +186,6 @@
 .cards-wrapper-row {
     display: flex;
     column-gap: 20px;
-}
-
-.cards-wrapper-col {
-
 }
 
 .col-horizontal {
